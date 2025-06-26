@@ -81,6 +81,7 @@ export const generateDocx = async (
 
   const base64Image = await getBase64Image("/assets/your_image.png", 120, 120);
 
+
   let htmlContent = element.innerHTML;
   htmlContent = htmlContent.replace(
     `<img src="/assets/your_image.png" alt="Your alt" width="100" height="100">`,
